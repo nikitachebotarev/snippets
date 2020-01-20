@@ -1,24 +1,6 @@
 package com.hudway.drive.core.widgets
 
-import android.bluetooth.BluetoothDevice
-import android.os.Bundle
-import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.hudway.drive.HwApplication
-import com.hudway.drive.R
-import com.hudway.drive.core.settings.refactored.HwSettingsFragment
-import com.hudway.drive.core.widgets.list.HwWidgetsInfoFragment
-import com.hudway.drive.core.widgets.list.HwWidgetsListAdapter
-import com.hudway.drive.nosorog.core.model.DashboardCenterWidget
-import com.hudway.drive.nosorog.core.model.DashboardSideWidget
-import com.hudway.drive.nosorog.ui.main.drive.edit.DashboardEditFragment
-import com.hudway.drive.nosorog.ui.main.drive.edit.DriveFragmentType
-import com.kivic.network.packet.command.HudWidgetCommandPacket
+import ...
 
 class HwWidgetsFragment : Fragment(), HwWidgetsContract.IHWWidgetsView,
     HwWidgetsListAdapter.IHwWidgetsListAdapterListener,
